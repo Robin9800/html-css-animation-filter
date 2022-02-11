@@ -188,9 +188,9 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteCompletely 2s linear;
+    animation: move-full-line 2s linear;
 }
-@keyframes moveBottomWhiteCompletely {
+@keyframes move-full-line {
     0% {
         bottom: -10px;
         right: 20%;
